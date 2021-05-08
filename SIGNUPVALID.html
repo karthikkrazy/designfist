@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> SIGNUP </title>
+
+    <link href="SIGNUPVALID.css" rel="stylesheet" type="text/css">
+    <script>
+        function validate() {
+            var username = document.getElementById("user");
+            var password = document.getElementById("password");
+            var password = document.getElementById("email");
+            if (username.value == "" || password.value == "" || email.value == "") {
+                alert("Blank values are not allowed");
+                return false;
+            } else {
+                true;
+            }
+        }
+    </script>
+</head>
+
+<body style="background-color: orange;  ;">
+
+    <div style="border: 2px black;">
+        <form class="formcontainer" onsubmit="return validate()" action="homepage2.html">
+
+            <h3 style="text-decoration: underline black;">SIGNUP</h3>
+            <div class="form-grp">
+                <label>FULL NAME :</label> <br>
+                <input type="text" name="username" placeholder="Username" id="user"><br>
+
+
+            </div>
+            <div>
+                <br> <label>EMAIL ID</label>
+                <input type="email" name="email" placeholder="email address" id="email">
+
+            </div>
+            <div>
+                <br> <label> NEW PASSWORD </label>
+                <input type="password" name="password" placeholder="Password" id="password">
+
+            </div>
+            &nbsp;&nbsp;&nbsp;
+            <div><button onclick="validate()" type="submit">SIGN UP</a></div>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>

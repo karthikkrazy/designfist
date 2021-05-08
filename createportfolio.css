@@ -1,0 +1,438 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top {
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    position: relative;
+    border-bottom: 8px solid orange;
+}
+
+#searchbar {
+    margin-top: 55px;
+    margin-left: 170px;
+    float: left;
+}
+
+#searchbar:hover {
+    box-shadow: 2px 2px 2px;
+    color: orange;
+}
+
+.fist img {
+    width: 130px;
+    float: left;
+    height: auto;
+    margin-top: 8px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.create {
+    float: right;
+    margin-top: 55px;
+    margin-right: 50px;
+    color: white;
+    border: orange solid 2px;
+    cursor: pointer;
+    padding: 2px 2px;
+}
+
+.create:hover {
+    padding: 4px 4px;
+}
+
+.supportbtn {
+    float: right;
+    margin-top: 55px;
+    margin-right: 50px;
+    border: orange solid 2px;
+    cursor: pointer;
+    color: white;
+    padding: 2px 2px;
+}
+
+.supportbtn:hover {
+    padding: 4px 4px;
+}
+
+.loginbtn {
+    float: right;
+    margin-right: 50px;
+    border: orange solid 2px;
+    margin-top: 55px;
+    cursor: pointer;
+    color: white;
+    padding: 2px 2px;
+}
+
+.loginbtn:hover {
+    padding: 4px 4px;
+}
+
+.left {
+    background-color: orange;
+    width: 50vh;
+    height: 80vh;
+}
+
+.profilepic2 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 70px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 12vh;
+    margin-top: 20vh;
+    transition: 0.4s ease;
+}
+
+.profilepic2:hover {
+    background-color: green;
+    transform: rotate(-360deg);
+    box-shadow: 1px 1px 1px 1px black;
+    text-decoration: underline;
+}
+
+.edit {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 12.5vh;
+    margin-top: 4vh;
+    float: left;
+}
+
+.edit:hover {
+    background-color: grey;
+    transition: 0.4s ease;
+    box-shadow: 1px 1px 1px 1px black;
+    border: black 2px;
+}
+
+.right {
+    float: right;
+    margin-top: -45%;
+    margin-right: 60vh;
+}
+
+.ads {
+    background-color: rgb(63, 61, 61);
+    border: none;
+    color: gainsboro;
+    padding: 100px 65px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 12vh;
+    margin-top: 20vh;
+    transition: 0.4s ease;
+}
+
+.ads:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 4px 4px 4px 4px greenyellow;
+}
+
+.design {
+    font-family: OCR A Std, monospace;
+    float: right;
+    font-size: 20px;
+    margin-right: -40vh;
+    margin-top: -16vh;
+}
+
+.design:hover {
+    color: orange;
+    cursor: pointer;
+    border-style: solid;
+    font-size: 25px;
+}
+
+.yourportfolio {
+    margin-top: -30vh;
+    float: left;
+    margin-left: 93.355vh;
+}
+
+.your {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 12.5vh;
+    margin-top: 18h;
+    float: left;
+}
+
+.your:hover {
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.yourportfolio2 {
+    margin-top: -20vh;
+    float: left;
+    margin-left: 93vh;
+}
+
+.your2 {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 12.5vh;
+    margin-top: 18h;
+    float: left;
+}
+
+.your2:hover {
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.profilepic3 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 59px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    float: left;
+    margin-top: 10vh;
+    margin-left: 12vh;
+}
+
+.profilepic3:hover {
+    background-color: rebeccapurple;
+    transform: rotate(-360deg);
+    box-shadow: 1px 1px 1px 1px black;
+    text-decoration: underline;
+}
+
+.profilepic4 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 59px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    float: left;
+    margin-top: 10vh;
+    margin-left: 12vh;
+}
+
+.profilepic4:hover {
+    background-color: rebeccapurple;
+    transform: rotate(-360deg);
+    box-shadow: 1px 1px 1px 1px black;
+    text-decoration: underline;
+}
+
+.profilepic5 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 59px 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    float: left;
+    margin-top: 10vh;
+    margin-left: 12vh;
+}
+
+.profilepic5:hover {
+    background-color: rebeccapurple;
+    transform: rotate(-360deg);
+    box-shadow: 1px 1px 1px 1px black;
+    text-decoration: underline;
+}
+
+.butt {
+    float: left;
+    margin-top: -2vh;
+    padding: 0%;
+}
+
+@media only screen and (max-width:700px) {
+    .top {
+        background-color: black;
+        background-position: center;
+        background-size: cover;
+        width: 810px;
+        height: 40vh;
+        border-bottom: 5px solid orange;
+    }
+    .edit {
+        background-color: orange;
+        border: none;
+        color: black;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-left: 12.5vh;
+        margin-top: 4vh;
+        float: left;
+    }
+    .ads {
+        background-color: rgb(63, 61, 61);
+        border: none;
+        color: gainsboro;
+        padding: 120px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-left: 12vh;
+        margin-top: 20vh;
+        transition: 0.4s ease;
+    }
+    .right2 {
+        float: right;
+        margin-top: 30%;
+        font-size: 20px;
+        margin-right: 12vh;
+    }
+    .loginbtn {
+        float: right;
+        margin-top: 66.59px;
+        margin-right: 50%;
+        padding: 4px;
+    }
+    .signupbtn {
+        float: right;
+        margin-right: -42%;
+        margin-top: 69.5px;
+    }
+    .supportbtn {
+        float: right;
+        margin-top: 66px;
+        margin-right: -28%;
+        padding: 4px;
+    }
+    .fist img {
+        width: 200px;
+        height: auto;
+        margin-left: 2cm;
+        margin-top: 1cm;
+        position: relative;
+        color: orange;
+    }
+    .paragraph {
+        margin-top: 11%;
+        margin-right: -38%;
+        font-size: 60px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .paragraph2 {
+        margin-top: 10%;
+        float: left;
+        text-decoration: none;
+        text-decoration-line: none;
+        margin-left: 75%;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .bottom {
+        background-color: orange;
+        height: 11vh;
+        width: 670px;
+        margin-top: 100%;
+        border-top: 2px black solid;
+        display: none;
+    }
+    .create {
+        float: right;
+        margin-top: -29px;
+        margin-right: 50px;
+        color: white;
+        border: orange solid 2px;
+        cursor: pointer;
+        padding: 2px 2px;
+    }
+    .ads {
+        background-color: rgb(63, 61, 61);
+        border: none;
+        color: gainsboro;
+        padding: 50px 150px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 40px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-top: -8vh;
+        transition: 0.4s ease;
+    }
+    .profilepic3 {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 59px 9px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition: 0.4s ease;
+        float: left;
+        margin-top: 10vh;
+        margin-left: 12vh;
+    }
+}
+
+
+}
