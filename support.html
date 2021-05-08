@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title> support</title>
+
+    <link href="loginvalidation.css" rel="stylesheet" type="text/css">
+    <script>
+        function validate() {
+            var username = document.getElementById("user");
+            var email = document.getElementById("email");
+            var text = document.getElementById("text");
+            if (username.value == "" || email.value == "" || text.value == "") {
+                alert("Blank values are not allowed");
+                return false;
+            } else {
+                true;
+            }
+        }
+    </script>
+</head>
+
+<body style="background-color: orange;  ;">
+
+    <div style="border: 2px black;">
+        <form class="formcontainer" onsubmit="return validate()" action="homepage.html">
+
+            <h3 style="text-decoration: underline black;">HELP CENTER</h3>
+            <div class="form-grp">
+                <label>USER NAME :</label> <br>
+                <input type="text" name="username" placeholder="Username" id="user"><br>
+
+
+            </div>
+            <div>
+                <br> <label>EMAIL ID</label>
+                <input type="email" name="email" placeholder="email address" id="email">
+
+            </div>
+            <div>
+                <br> <label> FEEDBACK :</label>
+                <textarea id="text" name="text" rows="4" cols="25" placeholder="write here">
+                </textarea>
+            </div>
+            &nbsp;&nbsp;&nbsp;
+            <div><button onclick="validate()" type="submit">SUBMIT</a></div>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
